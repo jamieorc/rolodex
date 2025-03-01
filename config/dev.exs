@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :rolodex, Rolodex.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "jamieorc",
+  password: "",
   hostname: "localhost",
   database: "rolodex_dev",
   stacktrace: true,
