@@ -16,27 +16,25 @@ alias Rolodex.Repo
 tlds = ~w[com net org]
 
 [
-  "Jimi Hendrix",
-  "Kirk Hammett",
-  "John Petrucci",
-  "Tom Morello",
-  "John Frusciante",
-  "Jimmy Page",
+  "James Honeyman-Scott",
+  "Peter Buck",
+  "Brian Setzer",
+  "Dave Edmunds",
+  "Sarah Lee",
+  "Andy Summers",
+  "Emily Kokal",
+  "Theresa Wayman",
+  "Jenny-Lee Lindberg",
   "George Harrison",
   "Brian May",
-  "Daron Malakian",
-  "Mick Thomson",
+  "Pete Townshend",
   "Carlos Santana",
   "Jeff Beck",
   "Keith Richards",
-  "Eric Clapton",
-  "Eddie Van Halen",
-  "Ace Frehley",
-  "Slash",
+  "Ronnie Wood",
   "David Gilmour",
-  "Dave Mustaine",
-  "Frank Zappa",
-  "Kim Thayil"
+  "Susanna Hoffs",
+  "Vicki Peterson"
 ]
 |> Enum.each(fn name ->
   email = name |> String.downcase() |> String.replace(" ", ".")
